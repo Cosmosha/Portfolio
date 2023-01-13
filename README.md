@@ -99,7 +99,7 @@ Run the index.html file in your browser
 
 You can deploy this project using:
 
-HTML 5, CSS 3 and JavaScript.
+Broswer, text editor.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

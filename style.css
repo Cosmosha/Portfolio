@@ -69,7 +69,7 @@ header {
   padding-right: 25px;
 }
 
-.personal-info h2 {
+.personal-info h1 {
   padding: 10px 35px;
   color: #172b4d;
   font-weight: 700;
@@ -83,6 +83,10 @@ header {
   font-size: 15px;
   line-height: 24px;
   padding-bottom: 10px;
+}
+
+.personal-info ul {
+  display: flex;
 }
 
 .personal-info .socail-media {

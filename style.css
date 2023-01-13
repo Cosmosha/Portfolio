@@ -55,9 +55,10 @@ header {
   top: 0;
   background: #fff;
   border-radius: 0 0 0 120px;
-  margin-bottom: 10em;
+  margin-bottom: 6em;
   background-image: url(./images/header-shapes\ mobile@2x.svg);
-  background-size: contain;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -115,6 +116,7 @@ header {
 
 .works {
   padding: 25px;
+  margin-bottom: 6em;
 }
 
 .grid-container {
@@ -295,71 +297,11 @@ header {
   width: 100%;
   justify-content: space-between;
   padding-right: 30px;
+  color: #000;
 }
 
 .others .framework {
   font-weight: 500;
   size: 20px;
   line-height: 25px;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  margin-top: -15%;
-  background: #6070ff;
-  background-image: url('./images/contact-form-mobile.svg');
-  background-repeat: no-repeat;
-  background-position: top right;
-  border-radius: 80px 0 0 0;
-  padding: 60px 0 40px;
-}
-
-.contact .contact-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-.contact .contact-info h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #fff;
-  padding: 30px 0 0 0;
-}
-
-.contact .contact-info p {
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 28px;
-  color: #ebebff;
-  padding: 30px;
-  text-align: center;
-}
-
-.contact .contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.contact-form input[type="text"],
-input[type="email"],
-textarea {
-  border-radius: 9px;
-  padding: 12px 7px 12px;
-  border: none;
-  font-weight: 300;
-  font-size: 15px;
-}
-
-.contact-form textarea {
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 22px;
 }

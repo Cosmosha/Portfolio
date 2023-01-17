@@ -305,3 +305,23 @@ header {
   size: 20px;
   line-height: 25px;
 }
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin-top: -15%;
+  background: #6070ff;
+  background-image: url('./images/contact-form-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-radius: 80px 0 0 0;
+  padding: 60px 0 40px;
+}
+
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}

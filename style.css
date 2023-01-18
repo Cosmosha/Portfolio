@@ -211,10 +211,25 @@ header {
   cursor: pointer;
 }
 
-.project-content .action .btn:hover {
-  background-color: #6070ff;
+.action .btn:hover {
+  background: ##6070FF;
   color: #fff;
   transition: all 0.8s ease;
+}
+
+.action .btn:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+.action .btn:disabled {
+  background: #fff;
+  color: #5e6c84;
+}
+
+.action .btn:active {
+  background: #2230d2;
+  color: #fff;
 }
 
 .about-myself {

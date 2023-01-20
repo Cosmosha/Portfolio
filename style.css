@@ -217,10 +217,11 @@ header {
   cursor: pointer;
 }
 
-.action .btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
+
+/* .action .btn:hover {
+    background-color: #6070ff;
+    color: #fff;
+} */
 
 .action .btn:enabled {
   background-color: #fff;
@@ -232,7 +233,21 @@ header {
   color: #5e6c84;
 }
 
-.action .btn:active {
+
+/* .action .btn:active {
+    background-color: #2230d2;
+    color: #fff;
+} */
+
+
+/* .action .btn:disabled */
+
+.action .btn:enabled:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.action .btn:enabled:active {
   background-color: #2230d2;
   color: #fff;
 }

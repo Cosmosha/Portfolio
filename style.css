@@ -412,10 +412,12 @@ textarea {
     display: none;
   }
 
-  . .personal-info {
+  .headline .personal-info {
     display: flex;
     justify-content: center;
-    padding: 20% 14%;
+    padding: 20%;
+    padding-top: -20px;
+    padding-bottom: 50px;
   }
 
   .personal-info h1 {
@@ -428,11 +430,6 @@ textarea {
 
   .mobile {
     display: none;
-  }
-
-  .headline .personal-info {
-    padding-top: -20px;
-    padding-bottom: 50px;
   }
 
   .headline .personal-info h1 {
@@ -515,8 +512,7 @@ textarea {
   }
 
   .headline .personal-info {
-    padding-top: -20px;
-    padding-bottom: 50px;
+    padding: 10% 20% 20% 20%;
   }
 
   .headline .personal-info h1 {

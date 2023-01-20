@@ -138,6 +138,11 @@ header {
 .works-container .banner img {
   width: 100%;
   height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.works-container .banner img:hover {
+  transform: scale(1.1);
 }
 
 .project-content {

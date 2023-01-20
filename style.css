@@ -167,7 +167,7 @@ header {
     height: 10px;
     width: 10px;
     margin-top: 5px;
-    background-color: #C1C7D0;
+    background-color: #c1c7d0;
     border-radius: 100%;
 }
 
@@ -199,6 +199,10 @@ header {
     font-size: 14px;
 }
 
+.desktop {
+    display: none;
+}
+
 .action .btn {
     padding: 15px;
     font-size: 15px;
@@ -211,10 +215,8 @@ header {
 }
 
 .action .btn:hover {
-    background-color;
-    : ##6070FF;
+    background-color: ##6070FF;
     color: #fff;
-    transition: all 0.8s ease;
 }
 
 .action .btn:enabled {
@@ -414,6 +416,9 @@ textarea {
         letter-spacing: 3%;
         color: #172b4d;
     }
+    .mobile {
+        display: none;
+    }
 }
 
 
@@ -434,6 +439,17 @@ textarea {
     .grid-container .works-container {
         display: flex;
         flex-direction: row;
+        gap: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .desktop {
+        display: block;
+    }
+    .desktop .works-container {
+        margin-top: 90px;
+    }
+    .project-content {
         gap: 20px;
     }
     .about-myself {

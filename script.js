@@ -15,6 +15,6 @@ function showMenu() {
 
 // ─── Event Listeners ──────────────────────────────────────────────────────────
 mobileMenu.addEventListener('click', showMenu);
-navBtn.forEach(link => {
-  link.addEventListener('click', showMenu)
+navBtn.forEach((link) => {
+  link.addEventListener('click', showMenu);
 });

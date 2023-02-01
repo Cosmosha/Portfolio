@@ -1,11 +1,11 @@
 // ─── Selectors ───────────────────────────────────────────────────────────────
 const mobileMenu = document.querySelector('.mobile-menu');
-const navLinks = document.querySelector('.nav-links');
+const navlinks = document.querySelector('.nav-links');
 const navBtn = document.querySelectorAll('.nav-links ul li a');
 
 // ─── Function ────────────────────────────────────────────────────────────────
 function showMenu() {
-  navLinks.classList.toggle('show-menu');
+  navlinks.classList.toggle('show-menu');
   if (mobileMenu.src.match('./images/IconMenu.png')) {
     mobileMenu.src = './images/IconCancel.png';
   } else {

@@ -1,6 +1,7 @@
 // ─── Selectors ───────────────────────────────────────────────────────────────
 const mobileMenu = document.querySelector('.mobile-menu');
 const navlinks = document.querySelector('.nav-links');
+const navBtn = document.querySelectorAll('.nav-links ul li a');
 
 // ─── Function ────────────────────────────────────────────────────────────────
 function showMenu() {
@@ -14,3 +15,6 @@ function showMenu() {
 
 // ─── Event Listeners ──────────────────────────────────────────────────────────
 mobileMenu.addEventListener('click', showMenu);
+navBtn.forEach((link) => {
+  link.addEventListener('click', showMenu);
+});

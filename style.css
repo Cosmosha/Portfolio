@@ -87,6 +87,7 @@ nav .navbar {
 
 .show-menu {
   margin-left: 0;
+  position: fixed;
 }
 
 .headline {

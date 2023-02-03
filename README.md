@@ -133,7 +133,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Success Team..
+I would like to thank Microverse Success Team.. 
+I would also like to thank Matee Safi for his contribution.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

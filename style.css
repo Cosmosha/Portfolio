@@ -444,6 +444,7 @@ textarea {
 .closePopup {
     font-size: x-large;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .popup hr {
@@ -458,6 +459,10 @@ textarea {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.action .btnPosition img {
+    width: 12px;
 }
 
 .popup {

@@ -156,8 +156,8 @@ function renderWorkSection() {
                 <hr>
                 <div class="action ">
                     <div class="btnPosition">
-                        <button type="button" class="btn"><a href="${projectID.liveLink}">See live</a></button>
-                        <button type="button" class="btn"><a href="${projectID.sourceLink}"></a>See Source</button>
+                        <button type="button" class="btn"><a href="${projectID.liveLink}"></a>See live <img src="./images/iconExport.png" class="btn-icon" alt="button icom"></button>
+                        <button type="button" class="btn"><a href="${projectID.sourceLink}"></a>See Source <img src="./images/iconGitHub.png" class="btn-icon" alt=" btn-icon"></button>
                     </div>
                 </div>
             </div>

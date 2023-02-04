@@ -177,6 +177,14 @@ nav .navbar {
   margin-bottom: 50px;
 }
 
+.popup .works-container {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 20px;
+  margin: 13px;
+}
+
 .banner img {
   width: 100%;
   height: 100%;
@@ -374,7 +382,7 @@ nav .navbar {
   justify-content: space-between;
 }
 
-.popup .projectDetails p {
+.works-container .projectDetails p {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -383,7 +391,15 @@ nav .navbar {
 
 .closePopup {
   font-size: x-large;
-  font-weight: 700;
+  font-weight: 500;
+  cursor: pointer;
+  color: #a1a5ad;
+}
+
+.closePopup:hover,
+.closePopup:focus {
+  color: black;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -412,7 +428,7 @@ nav .navbar {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: #c1c7d05c;
+  background-color: #4c4d50f5;
   backdrop-filter: blur(8px);
   display: none;
 }
@@ -568,7 +584,7 @@ textarea {
   }
 
   .works-container .banner img {
-    width: 20em;
+    width: 80em;
     height: 100%;
   }
 
@@ -577,9 +593,17 @@ textarea {
     height: auto;
   }
 
+  .popup .works-container {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 20px;
+    margin: 90px;
+  }
+
   .popup-body .banner img {
-    width: 100% !important;
-    height: 100% !important;
+    width: 35rem !important;
+    height: auto !important;
   }
 
   .aboutme-info p {

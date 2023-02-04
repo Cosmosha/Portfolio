@@ -1,23 +1,6 @@
 <a name="readme-top"></a>
 
 <!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
 
 
 <div align="center">
@@ -36,10 +19,17 @@ REQUIRED SECTIONS:
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -55,37 +45,79 @@ REQUIRED SECTIONS:
 
 ### Tech Stack <a name="tech-stack"></a>
 
+
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html5.org/">HTML 5</a></li>
+    <li><a href="https://w3.org/">HTML</a></li>
   </ul>
     <ul>
-    <li><a href="https://css3.com/">CSS 3</a></li>
+    <li><a href="https://w3.org/">CSS 3</a></li>
   </ul>
+    <ul>
+    <li><a href="https://w3.org/">Javascropt</a></li>
+  </ul>
+</details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">NO Server</a></li>
+  </ul>
+</details>
 
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="#">NO Database</a></li>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[Headline]**
 - **[Projects]**
-- **[Contact form]**
+- **[Contact Form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://cosmosha.github.io)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+Web browser
+
+Extractor
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-Extract the downloaded folder.
 
+
+### Install
+
+Install this project with:
+
+
+Extract the downloaded or clone repository folder.
 
 ### Usage
 
@@ -94,6 +126,11 @@ To run the project, execute the following command:
 Run the index.html file in your browser
 
 
+### Run tests
+
+To run tests, run the following command:
+
+NO Testing needed.
 
 ### Deployment
 
@@ -101,12 +138,13 @@ You can deploy this project using:
 
 Broswer, text editor.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 👤 **Author**
 
@@ -115,8 +153,19 @@ Broswer, text editor.
 - LinkedIn: [cosmos hagan](https://linkedin.com/in/cosmoshagan)
 
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[Add Projects]**
+- [ ] **[Link Phone number]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
@@ -128,6 +177,13 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project call or visit us on facebookk...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -140,6 +196,7 @@ I would also like to thank Matee Safi for his contribution.
 
 
 <!-- LICENSE -->
+
 
 ## 📝 License <a name="license"></a>
 

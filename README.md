@@ -144,8 +144,6 @@ Broswer, text editor.
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author**
 
 - GitHub: [@cosmosha](https://github.com/cosmosha)
@@ -159,8 +157,6 @@ Broswer, text editor.
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Add Projects]**
 - [ ] **[Link Phone number]**

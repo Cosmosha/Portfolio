@@ -171,7 +171,7 @@ function renderWorkSection() {
         </div>
         <div class="popup-body">
             <div class="banner">
-                <img src=".${projectID.imageSrc}" class="project-img" alt="project image">
+                <img src="${projectID.imageSrc}" class="project-img" alt="project image">
             </div>
         </div>
     

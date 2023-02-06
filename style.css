@@ -177,7 +177,15 @@ nav .navbar {
   margin-bottom: 50px;
 }
 
-.works-container .banner img {
+.popup .works-container {
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  border-radius: 20px;
+  margin: 13px;
+}
+
+.banner img {
   width: 100%;
   height: 100%;
 }
@@ -189,14 +197,14 @@ nav .navbar {
   gap: 12px;
 }
 
-.project-content .project-title h2 {
+.project-title h2 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   color: #172b4d;
 }
 
-.project-content .outline ul {
+.outline ul {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
@@ -208,7 +216,7 @@ nav .navbar {
   line-height: 20px;
 }
 
-.project-content .outline .dot {
+.outline .dot {
   height: 10px;
   width: 10px;
   margin-top: 5px;
@@ -216,7 +224,7 @@ nav .navbar {
   border-radius: 100%;
 }
 
-.project-content .outline .dev {
+.outline .dev {
   color: #7a869a;
 }
 
@@ -226,17 +234,17 @@ nav .navbar {
   line-height: 24px;
 }
 
-.project-content .tags {
+.tags {
   padding-top: 10px;
   padding-bottom: 20px;
 }
 
-.project-content .tags ul {
+.tags ul {
   display: flex;
   gap: 10px;
 }
 
-.project-content .tags .skill {
+.tags .skill {
   background: #ebebff;
   padding: 7px 12px;
   border-radius: 12px;
@@ -249,7 +257,7 @@ nav .navbar {
 }
 
 .action .btn {
-  padding: 15px;
+  padding: 10px;
   font-size: 15px;
   font-weight: 500;
   color: #6070ff;
@@ -369,6 +377,67 @@ nav .navbar {
   line-height: 25px;
 }
 
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.works-container .projectDetails p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.closePopup {
+  font-size: x-large;
+  font-weight: 500;
+  cursor: pointer;
+  color: #a1a5ad;
+}
+
+.closePopup:hover,
+.closePopup:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup hr {
+  margin: auto;
+  width: 80%;
+  border: 1px solid #ebecf0;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.popup .action .btnPosition {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.popup .action .btnPosition img {
+  width: 12px;
+}
+
+.popup {
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #4c4d50f5;
+  backdrop-filter: blur(8px);
+  display: none;
+}
+
+.popup-show {
+  display: block;
+  position: fixed;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
@@ -428,6 +497,12 @@ textarea {
   font-weight: 300;
   font-size: 15px;
   line-height: 22px;
+}
+
+.errorMessage {
+  background: #fff;
+  text-align: center;
+  color: red;
 }
 
 @media screen and (min-width: 768px) {
@@ -515,8 +590,26 @@ textarea {
   }
 
   .works-container .banner img {
-    width: 20em;
+    width: 80em;
     height: 100%;
+  }
+
+  .popup-body .banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .popup .works-container {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 20px;
+    margin: 90px;
+  }
+
+  .popup-body .banner img {
+    width: 35rem !important;
+    height: auto !important;
   }
 
   .aboutme-info p {
@@ -557,6 +650,24 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .projectDetails {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popup .projectDetails p {
+    float: left;
+    margin-right: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .popup hr {
+    display: none;
   }
 }
 
